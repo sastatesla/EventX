@@ -1,0 +1,180 @@
+.CoverContainer{
+    width: 78%;
+    /* margin: auto; */
+    height: 350px;
+    object-fit: cover;
+    border: 1px solid;
+    margin-left:16.5%;
+    margin-top: 5%;
+    border-radius: 5px;
+
+}
+
+.EventInfoContBelowCover{
+    width: 78%;
+    margin-left: 16.5%;
+    /* border: 1px solid; */
+    height: 750px;
+    margin-top: 10px;
+    display: flex;
+    border-radius: 5px;
+
+}
+
+.DetailContainerLeft{
+    width: 65%;
+    /* border: 1px solid; */
+    border-radius: 5px;
+    height: fit-content;
+
+}
+
+.EventDet{
+    width: 97.5%;
+    border: 1px solid;
+    border-radius: 5px;
+    height: fit-content;
+    padding: 10px;
+
+}
+
+.IconsContainerWithTitile{
+    display: flex;
+
+}
+
+
+.titleIcons{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 25px;
+    text-align: center;
+    margin: 5px 0  5px ;
+}
+
+.IconTitle{
+    padding: 6px;
+}
+
+
+.EventDetAbout{
+    width: 100%;
+    border: 1px solid ;
+    border-radius: 5px;
+    height: 500px;
+    margin-top: 10px;
+}
+
+.EventDetAbout h3{
+    padding: 5px;
+
+}
+
+
+.EventDetailContRight{
+    width: 35%;
+    height: fit-content;
+
+}
+
+.EventInfo{
+    width: 92%;
+    border: 1px solid;
+    border-radius: 5px;
+    height: fit-content;
+    margin-left: auto;
+    padding: 10px;
+}
+
+.EventOrgInfo{
+    width: 97%;
+    border: 1px solid;
+    border-radius: 5px;
+    height: 220px;
+    margin-left: auto;
+    margin-top: 10px;
+    
+}
+
+.EventOrgInfo p{
+    padding: 0px  10px 0 10px;
+
+}
+
+.Follow-Btn{
+    border: 2px solid blueviolet;
+    border-radius: 25px;
+    padding: 5px;
+    background-color: white;
+    margin-left: 5px;
+    width: 100px;
+}
+
+.EventPrizeInfo{
+    width: 97%;
+    border: 1px solid;
+    border-radius: 5px;
+    height: 220px;
+    margin-left: auto;
+    margin-top: 10px;
+}
+
+.EventPrizeInfo h3{
+    padding: 5px;
+}
+
+.PrizeInfoCont{
+    padding: 10px;
+}
+.EventOrgInfo h3{
+    padding: 5px;
+
+}
+
+.Register-Btn{
+    width: 180px;
+    background-color: blueviolet;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    border-radius: 25px;
+    border: none;
+    margin-top:10px ;
+
+}
+.UserImg{
+    padding:10px 0 10px 10px;
+    display: flex;
+}
+
+.UserProfileImg{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    border: 1px solid;
+    object-fit: cover;
+    
+}
+
+.ProfileImg{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.RegistrationPopup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+
+  

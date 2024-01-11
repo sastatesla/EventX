@@ -1,0 +1,60 @@
+.SignUpCont{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    gap: 20px;
+
+}
+
+.SLeftCont{
+    width: 50%;
+    height: 750px;
+    padding-top: 20%;
+    
+    /* border: 1px solid ; */
+
+}
+
+.SRightCont{
+    width: 50%;
+    height: 750px;
+}
+
+.SignUpInBtn{
+    display: flex;
+    width: 350px;
+    gap: 20px;
+}
+
+.SignUpBtn{
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-weight: 700;
+    margin-top: 25px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.SignInBtn{
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-weight: 700;
+    margin-top: 25px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.RightLandImg{
+    width: 100%;
+}

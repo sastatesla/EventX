@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Quicksand:wght@700&display=swap');
+
+.container {
+  display: flex;
+}
+.LogoCont{
+  display: flex;
+}
+
+.NavIcon{
+  font-size: 25px;
+  padding-top: 1px;
+}
+
+.Fiddle{
+  font-family: 'Quicksand', sans-serif; 
+  font-size: 28px;
+  border: 1px solid;
+  width: 28px;
+  text-align: center;
+  border-radius:5px; 
+  background-color: #ea2bff;
+  color: white;
+}
+
+.logo {
+  font-size: 30px;
+  margin-right: 20px;
+  font-family: 'Quicksand', sans-serif;  
+  color: rgb(127, 7, 255);
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  position: fixed; /* Make the sidebar fixed */
+  height: 100vh; /* Make the sidebar full height */
+  z-index: 1; /* Ensure the sidebar is above the content */
+
+}
+
+.sidebar-open {
+  width: 200px; /* Adjust as needed */
+}
+
+.sidebar-links {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.link {
+  width: 165px;
+  height: 28px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  /* border: 1px solid; */
+  padding: 8px;
+  padding-left: 18px;
+  margin-left: 35px;
+  margin-top: 5px;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  
+}
+
+.Navname{
+  text-align: center;
+  /* border: 1px solid; */
+  margin-top: 5px;
+}
+
+.active {
+  /* border: 1px solid; */
+  border-radius: 25px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(232, 216, 252);
+}
+
+.links-div{
+  display: flex;
+  gap: 10px;
+}
+
+.divider{
+  width: 195px;
+  margin-top: 10px;
+  margin-left: auto;
+  border: none;
+}
+.content {
+  flex: 1;
+  padding-left: 200px; /* Adjust based on the expanded sidebar width */
+  transition: padding-left 0.3s ease;
+  overflow-y: auto;
+  margin-left: 80px; /* Ensure content doesn't get behind the sidebar */
+}
+
+/* Add other necessary styles as needed */
