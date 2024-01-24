@@ -1,0 +1,33 @@
+.EventsPageCont{
+    width: 78%;
+    margin-left: 18%;
+}
+
+.event-card-link {
+    text-decoration: none;
+  }
+  
+  .event-card {
+    width: 300px; 
+    margin: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: box-shadow 0.3s ease-in-out; 
+  
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .event-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+  }
+  
+  .event-details {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .icon {
+    margin-left: 5px;
+  }
+  

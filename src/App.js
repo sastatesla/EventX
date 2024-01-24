@@ -8,9 +8,9 @@ import SignupForm from './components/Signup.js';
 import SigninForm from './components/Signin.js';
 import { getAuth, onAuthStateChanged } from 'firebase/auth'; // Updated imports
 import TopBar from './components/Topbar.js';
-import EventDetail from './components/eventdetail.js';
 import OpportunityPage from './components/OpportunityPage.js';
 import EventsPage from './components/EventPage.js';
+import EventDetailsPage from './components/EventDetailsPage.js';
 
 const App = () => {
   const [user, setUser] = useState(null);
@@ -34,13 +34,18 @@ const App = () => {
               <>
                 <Navbar />
                 <TopBar />
+
+                <div className="app-main-container">
+                    <main className="app-main-content">
                 <Routes>
                   <Route path="/" element={<Home />} />
                   <Route path="/Opportunities" element={<OpportunityPage />} />
-                  <Route path="/EventDetail" element={<EventDetail />} />
                   <Route path='/Events' element={<EventsPage/>}/>
-                  {/* Add more authenticated routes as needed */}
+                  <Route path="/event-details/:eventId" element={<EventDetailsPage />} />
                 </Routes>
+                </main>
+              </div>
+                
               </>
             ) : (
               <LandingPage />
